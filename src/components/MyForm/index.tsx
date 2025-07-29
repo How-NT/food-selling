@@ -33,6 +33,7 @@ const onSubmit = (data: any): void => {
 
 export const MyForm: FC<IProps> = (props: IProps): JSX.Element => {
 
+  console.log("continue testing")
   const { register, control, handleSubmit } = useForm()
 
   const { fields, append, remove } = useFieldArray({
