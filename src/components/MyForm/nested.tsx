@@ -7,6 +7,7 @@ interface IProps { }
 
 export const MyForm: FC<IProps> = (props: IProps): JSX.Element => {
   console.log("test")
+  console.log("tes2")
   const {
     register,
     handleSubmit,
