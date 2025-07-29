@@ -6,6 +6,7 @@ import { useForm, Controller, useFieldArray } from 'react-hook-form'
 interface IProps { }
 
 export const MyForm: FC<IProps> = (props: IProps): JSX.Element => {
+  console.log("test")
   const {
     register,
     handleSubmit,
